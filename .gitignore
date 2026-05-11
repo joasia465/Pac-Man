@@ -1,0 +1,9 @@
+*.exe
+*.o
+*.obj
+.vs/
+x64/
+Debug/
+Release/
+*.sln
+*.vcxproj
