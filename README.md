@@ -26,7 +26,11 @@ Aplikacja przenosi klasyczną mechanikę arcade do środowiska C++. Oto jak prze
 
 **1. Menu Startowe**
 
-Po uruchomieniu użytkownika wita ekran tytułowy. Z poziomu menu można rozpocząć nową grę lub zapoznać się z zasadami. Już tutaj widać wykorzystanie prymitywów SFML do stworzenia czytelnego interfejsu.
+Po uruchomieniu użytkownika wita ekran tytułowy. Z poziomu menu można wybrać jedną z dwóch dostępnych map.
+
+<p align="center">
+  <img src="screenshots/1_menu.png" width="45%" />
+</p>
 
 ---
 
@@ -37,6 +41,10 @@ Gracz przejmuje kontrolę nad Pac-Manem w labiryncie generowanym proceduralnie z
 Sterowanie odbywa się za pomocą klawiatury (WASD).
 
 Zadaniem gracza jest zebranie wszystkich punktów rozmieszczonych w korytarzach.
+
+<p align="center">
+  <img src="screenshots/2_map.png" width="45%" />
+</p>
 
 ---
 
@@ -54,6 +62,11 @@ Program w czasie rzeczywistym przelicza współrzędne Pac-Mana względem siatki
 **4. Koniec gry i wynik**
 
 Gra kończy się w momencie kontaktu z duchem lub zebrania wszystkich punktów. System wyświetla końcowy komunikat, informując gracza o wyniku.
+
+<p align="center">
+  <img src="screenshots/3_game_over.png" width="45%" />
+  <img src="screenshots/4_you_win.png" width="45%" />
+</p>
 
 ---
 
